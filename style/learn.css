@@ -1,0 +1,59 @@
+/* 
+*   Programmer = Desginer = Mayank
+*   CSS : style/learn
+*   Website 1 "School"
+*/
+
+.learn
+{
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(11,300px);
+    padding: 1rem;
+    width:100%;
+    overflow-y: hidden;
+    overflow-x:scroll;
+}
+
+.subject
+{
+    width: 300px;
+    height: auto;
+    background:#eee;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+h3
+{
+    color:#aaa;
+    padding: 1rem;
+}
+.link3
+{
+    padding: 10px 40px;
+    background:#000;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+}
+.link3:hover
+{
+    background:#aaa;
+}
+
+.btn4
+{
+    display: inline;
+    font-size: 3rem;
+    color:#000;
+}
+
+.img4
+{
+    padding: 1rem 7rem;
+}
+
+.star
+{
+    padding: 1rem;
+}

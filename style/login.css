@@ -1,0 +1,64 @@
+/* 
+*   Programmer = Desginer = Mayank
+*   CSS : style/login
+*   Website 1 "School"
+*/
+
+#header
+{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page
+{
+    width: 70%;
+    margin: auto;
+}
+
+#btn2
+{
+    padding: 5px;
+    font-size: 2rem;
+    border:3px solid #000;
+    border-radius:50px;
+}
+#btn2:hover
+{
+    border-color: #333;
+    color: #999;
+}
+
+label
+{
+    display: block;
+    padding: 10px;
+}
+.field
+{
+    width: 60%;
+    padding: 1rem;
+    font-size: 16px;
+    background:transparent;
+    border:2px solid #000;
+    border-radius: 25px;
+}
+
+.btn3
+{
+    margin: 0.5rem;
+    padding:1rem 3rem;
+    color:#fff;
+    font-size:16px;
+    background:#000;
+    border:2px solid transparent;
+    border-radius: 25px;
+}
+.btn3:hover
+{
+    background:transparent;
+    color: #000;
+    border-color: #000;
+}

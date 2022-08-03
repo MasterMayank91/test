@@ -1,0 +1,23 @@
+/* 
+*   Programmer = Desginer = Mayank
+*   CSS : style/about
+*   Website 1 "School"
+*/
+
+.img3
+{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border: 5px inset #000;
+    float: right;
+}
+
+.link2
+{
+    color:#520f52;
+}
+.link2:hover
+{
+    border-bottom: 2px solid #520f52;
+}

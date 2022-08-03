@@ -1,0 +1,44 @@
+/* 
+*   Programmer = Desginer = Mayank
+*   CSS : style/main
+*   Website 1 "School"
+*/
+
+.teacher
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+div:is([name='afr_btn'],[name='bfr_btn'])
+{
+    text-align: center;
+    width:10%;
+    padding: 5px;
+}
+div:is([name='afr_btn'],[name='bfr_btn']):hover
+{
+    color: #f00;
+}
+#staff
+{
+    width:40%;
+    padding: 10px;
+    display:grid;
+    grid-gap:30px;
+}
+.img5
+{
+    width:30%;
+    padding: 20px;
+    height:auto;
+    object-fit: fill;
+}
+
+data
+{
+    font-size: 18px;
+    color:#000;
+}

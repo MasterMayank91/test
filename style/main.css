@@ -1,0 +1,59 @@
+/* 
+*   Programmer = Desginer = Mayank
+*   CSS : style/main
+*   Website 1 "School"
+*/
+
+@import "home.css";
+@import "login.css";
+@import "teacher.css";
+@import "learn.css";
+@import "about.css";
+
+
+*
+{
+    margin:0;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+
+body
+{
+    background : var(--a-background), var(--b-background) fixed no-repeat;
+    background-size: cover;
+}
+
+main
+{
+    width: 100%;
+    height: 100vh;
+}
+
+hr
+{
+    margin: 1rem;
+    border:3px solid #999;
+}
+h1, h2, h3
+{
+    font-family:'Gabriola';
+    color:#000;
+}
+h2
+{
+    text-decoration: underline;
+}
+p
+{
+    font:1rem 'Franklin Gothic';
+    color:#333;
+    padding: 1rem;
+}
+
+:root
+{
+    --a-background:linear-gradient(to top, transparent, #fff 99%);
+    --b-background:url(../../RTX/c5.jpg);
+}
